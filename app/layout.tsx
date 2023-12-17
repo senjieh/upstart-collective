@@ -18,7 +18,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet"/>
       </head>
-      <body className='container m-auto px-20'>{children}</body>
+      <body className='px-20'>{children}</body>
     </html>
   )
 }
