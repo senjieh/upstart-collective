@@ -28,6 +28,9 @@ a {
     font-weight: 600;
     color: white;
 }
+img {
+    object-fit: cover;
+}
 
 p {
     font-family: 'Cabin', sans-serif;
@@ -67,8 +70,58 @@ h2 {
 }
 
 
-.max-20h{
-    max-height: 20%;
+.max-20vh{
+    height: 19vh;
+    max-height: 19vh;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering, if needed */
+    margin-top: 2.5vh;
+}
+
+.max-30vh{
+    height: 29vh;
+    max-height: 29vh;
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering, if needed */
+    margin-top: 2.5vh;
+}
+
+.max-40vh{
+    height: 39vh;
+    max-height: 39vh;
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering, if needed */
+    margin-top: 2.5vh;
+}
+
+.max-50vh{
+    height: 49vh;
+    max-height: 49vh;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering, if needed */
+    margin-top: 2.5vh;
+}
+
+.h-50vh{
+    height: 49vh;
+}
+
+.max-35vh{
+    height: 34vh;
+    max-height: 34vh;
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering, if needed */
+    margin-top: 2.5vh;
 }
 
 .button-primary {
