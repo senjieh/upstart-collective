@@ -4,29 +4,35 @@
 
 
 @font-face {
-    font-family: 'Zumme';
-    src: url(/fonts/ZuumeBold.ttf) format('truetype');
-    font-weight: 800;
+    font-family: 'NeueMontreal';
+    src: url(/fonts/NeueMontreal-Regular.otf) format('opentype');
+    font-weight: 400;
     font-style: bold;
 }
 
 @font-face {
-    font-family: 'Zumme';
-    src: url(/fonts/ZuumeBlack.ttf) format('truetype');
-    font-weight: 900;
+    font-family: 'NeueMontreal';
+    src: url(/fonts/NeueMontreal-Medium.otf) format('opentype');
+    font-weight: 500;
     font-style: bold;
 }
 
 
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: #f5f3f4;
     font-family: 'Cabin', sans-serif;
+    max-width: 1920px;
+    margin: auto;
+}
+
+em{
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 a {
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
-    color: white;
 }
 img {
     object-fit: cover;
@@ -36,19 +42,16 @@ p {
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
     font-size: 40px;
-    color: white;
 }
 
 h1 {
-    font-family: 'Cabin', sans-serif;
-    font-weight: 600;
-    color:white;
+    font-family: 'NeueMontreal', sans-serif;
+    font-weight: 400;
 }
 
 h2 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'NeueMontreal', sans-serif;
     font-weight: 700;
-    color:white;
 }
 
 .scrollable-content {
@@ -58,15 +61,24 @@ h2 {
     height: 100%; /* or any specific height */
     overflow: hidden;
 }
+
 .hero-h2 {
     -webkit-background-clip: text;
     background-image: url(https://media3.giphy.com/media/3SJVHlwtGggrS/giphy.gif?cid=ecf05e47fkpc298qd0n9hrk0e75snr1cf2gdl4tspwrfhyzv&ep=v1_gifs_related&rid=giphy.gif&ct=g);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    line-height: 100%;
     color: transparent;
     position: relative;
+}
+
+.about-h2 {
+    font-family: 'NeueMontreal', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 3.5em;
+    line-height: 1.4;
+    transform: translate(0);
 }
 
 .arrow-bg{
@@ -77,12 +89,13 @@ h2 {
 }
 
 .hero-div{
-    height: 120vh;
+    height: 90vw;
+    max-height: 1621px;
 }
 
 .max-20vh{
-    height: 19vh;
-    max-height: 19vh;
+    height: calc((20vw * 0.9) - 2.5vw);
+    max-height: calc(1621px*(0.18));
     display: flex;
     align-items: center; /* Vertical centering */
     justify-content: center; /* Horizontal centering, if needed */
@@ -90,8 +103,8 @@ h2 {
 }
 
 .max-30vh{
-    height: 29vh;
-    max-height: 29vh;
+    height: calc((30vw * 0.9) - 2.5vw);
+    max-height: calc(1621px*(0.28));
     justify-content: center;
     display: flex;
     align-items: center; /* Vertical centering */
@@ -100,8 +113,8 @@ h2 {
 }
 
 .max-40vh{
-    height: 39vh;
-    max-height: 39vh;
+    height: calc((40vw * 0.9) - 2.5vw);
+    max-height: calc(1621px*(0.38));
     justify-content: center;
     display: flex;
     align-items: center; /* Vertical centering */
@@ -110,8 +123,8 @@ h2 {
 }
 
 .max-50vh{
-    height: 49vh;
-    max-height: 49vh;
+    height: calc((50vw * 0.9) - 2.5vw);
+    max-height: calc(1621px*(0.48));
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -121,12 +134,12 @@ h2 {
 }
 
 .h-50vh{
-    height: 49vh;
+    height: 44vw;
 }
 
 .max-35vh{
-    height: 34vh;
-    max-height: 34vh;
+    height: calc((30vw * 0.9) - 2.5vw);
+    max-height: calc(1621px*(0.33));
     justify-content: center;
     display: flex;
     align-items: center; /* Vertical centering */

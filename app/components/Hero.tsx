@@ -2,7 +2,7 @@ function Hero() {
     return <div className="hero-div overflow-hidden mt-5">
           <div className="flex justify-between w-full">
             <div className="flex flex-col w-full m-2.5">
-              <div className="max-40vh rounded-3xl overflow-hidden">
+              <div className="max-30vh rounded-3xl overflow-hidden">
                 <img src="https://media.licdn.com/dms/image/D4E22AQFaznpKZjLGKQ/feedshare-shrink_2048_1536/0/1702501457371?e=1705536000&v=beta&t=tsRWu_YTnq0x1pkygURriS3EQtc3ZqQdy7xcdB6Uf3U" alt="View from Upstart" className="w-full h-full rounded-3xl" />
               </div>
               <div className="max-40vh rounded-3xl overflow-hidden">
@@ -13,7 +13,7 @@ function Hero() {
               </div>
             </div>
             <div className="flex flex-col w-full m-2.5">
-              <div className="max-30vh rounded-3xl overflow-hidden">
+              <div className="max-20vh rounded-3xl overflow-hidden">
                 <img src="https://media.licdn.com/dms/image/D4E22AQGnG4Iblz7H7w/feedshare-shrink_2048_1536/0/1685594125585?e=1705536000&v=beta&t=FPHifQbyc31WBFybywiB24_adm4ernGsL-yo3ZIxrxg" alt="View from Upstart" className="w-full h-full rounded-3xl" />
               </div>
               <div className="py-12 h-30vh max-50vh w-auto arrow-bg">
@@ -26,7 +26,7 @@ function Hero() {
               </div>
             </div>
             <div className="flex flex-col w-full m-2.5">
-              <div className="max-40vh rounded-3xl overflow-hidden">
+              <div className="max-30vh rounded-3xl overflow-hidden">
                 <img src="https://media.licdn.com/dms/image/D5622AQEORSZlEhLE8A/feedshare-shrink_800/0/1698342746999?e=2147483647&v=beta&t=7pkTNFZRFMneNYJl909L54BfsRu-Kh4Kwo85vRewA9A" alt="View from Upstart" className="w-full h-full rounded-3xl" />
               </div>
               <div className="max-30vh rounded-3xl overflow-hidden">
