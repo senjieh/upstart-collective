@@ -16,9 +16,8 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet"/>
       </head>
-      <body className='px-20'>{children}</body>
+      <body className='px-0 lg:px-40'>{children}</body>
     </html>
   )
 }
