@@ -1,6 +1,6 @@
 function Locations() {
     return <div className="location-div bg-gray-100 rounded-3xl mt-28 flex flex-col p-5">
-      <div className="flex flex-row border-b-2 border-white justify-between h-1/5 mb-5">
+      <div className="flex flex-row border-b-2 border-white justify-between h-auto my-5">
           <div className="flex flex-row items-end mb-5 ml-5">
               <h3 className="text-4xl lg:text-5xl text-black">Locations</h3>
               <p className="text-2xl text-black">/Portland</p>

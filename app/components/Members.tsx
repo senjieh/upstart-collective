@@ -26,11 +26,11 @@ function Members() {
               </div>
             </div>
             <div className="flex flex-col items-center w-2/5 ">
-              <div className="flex flex-col justify-between ">
-                <h2 className="hero-h2 text-black text-5xl lg:text-6xl xl:text-7xl">What is Upstart Collective?</h2>
-                <p className="text-black text-2xl leading-7 m-0">Much more than a space, it is also both a new experiment and a collaboration years in the making. Through the continued efforts of startup leaders in our city (and a generous contribution from our partner, GRAYBOX), UpStart Collective is now a highly subsidized creative space open to founders, funders, tinkerers, creators, doers, and idealists.  </p>
-                <div className="flex">
-                  <button className="button-large">Join Now</button>
+              <div className="flex flex-col justify-between">
+                <h2 className="members-h2 text-4xl lg:text-5xl xl:text-6xl my-5">Some of our members !</h2>
+                <p className="text-black text-2xl leading-7 my-5">Our community is awesome. Check out the list. Maybe you’ll be on it soon!</p>
+                <div className="flex my-5">
+                  <button className="button-large">See our Members List</button>
                 </div>              
               </div>
 

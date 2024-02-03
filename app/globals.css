@@ -4,19 +4,6 @@
 
 
 @font-face {
-<<<<<<< Updated upstream
-    font-family: 'NeueMontreal';
-    src: url(/fonts/NeueMontreal-Regular.otf) format('opentype');
-    font-weight: 400;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'NeueMontreal';
-    src: url(/fonts/NeueMontreal-Medium.otf) format('opentype');
-    font-weight: 500;
-    font-style: bold;
-=======
     font-family: 'Gilroy';
     src: url(/fonts/GILROY-BLACK.TTF) format('truetype');
     font-weight: 800;
@@ -28,7 +15,6 @@
     src: url(/fonts/GILROY-MEDIUM.TTF) format('truetype');
     font-weight: 500;
     font-style: normal;
->>>>>>> Stashed changes
 }
 
 @font-face {
@@ -45,22 +31,6 @@
 }
 
 body {
-<<<<<<< Updated upstream
-    background-color: #f5f3f4;
-    font-family: 'Cabin', sans-serif;
-    max-width: 1920px;
-    margin: auto;
-}
-
-em{
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
-a {
-    font-family: 'Cabin', sans-serif;
-    font-weight: 600;
-=======
     background-color: #ffffff;
     font-family: 'Gilroy', sans-serif;
 }
@@ -69,7 +39,6 @@ a {
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     color: white;
->>>>>>> Stashed changes
 }
 img {
     object-fit: cover;
@@ -78,19 +47,10 @@ img {
 p {
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h1 {
-<<<<<<< Updated upstream
-    font-family: 'NeueMontreal', sans-serif;
-    font-weight: 400;
-}
-
-h2 {
-    font-family: 'NeueMontreal', sans-serif;
-    font-weight: 700;
-=======
     font-family: 'Gilroy', sans-serif;
     font-weight: 800;
     color:white;
@@ -100,7 +60,6 @@ h2 {
     font-family: 'Gilroy', sans-serif;
     font-weight: 800;
     color:white;
->>>>>>> Stashed changes
 }
 
 h3 {
@@ -109,10 +68,12 @@ h3 {
     color:white;
 }
 
-<<<<<<< Updated upstream
-=======
+.members-h2{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    color: #1f1f1f;
+}
 
->>>>>>> Stashed changes
 .hero-h2 {
     -webkit-background-clip: text;
     background-image: url(https://media3.giphy.com/media/3SJVHlwtGggrS/giphy.gif?cid=ecf05e47fkpc298qd0n9hrk0e75snr1cf2gdl4tspwrfhyzv&ep=v1_gifs_related&rid=giphy.gif&ct=g);
@@ -123,14 +84,24 @@ h3 {
     position: relative;
 }
 
-.about-h2 {
-    font-family: 'NeueMontreal', sans-serif;
-    font-weight: 400;
+.about-h2-upper {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
     color: black;
     font-size: 3.5em;
     line-height: 1.4;
     transform: translate(0);
 }
+
+.about-h2-bottom {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 3.5em;
+    line-height: 1.4;
+    transform: translate(0);
+}
+
 
 .arrow-bg{
     background-image: url(/arrows.png);
@@ -140,10 +111,6 @@ h3 {
 }
 
 .hero-div{
-<<<<<<< Updated upstream
-    height: 90vw;
-    max-height: 1621px;
-=======
     height: 75vh;
     min-height: 750px;
 }
@@ -152,7 +119,6 @@ h3 {
 .location-div{
     height: 75vh;
     min-height: 540px;
->>>>>>> Stashed changes
 }
 
 .max-20vh{
